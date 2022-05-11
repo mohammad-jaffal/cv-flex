@@ -3,6 +3,7 @@ html, body {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
+    margin-bottom: 20%;
   }
 
 .main-container {
@@ -23,7 +24,6 @@ html, body {
 .top-right-container {
     flex-grow: 1;
     
-    margin-right: 20px;
 
 }
 
@@ -97,4 +97,15 @@ html, body {
     
 }
 
+.separator {
+    border-style: hidden;
+    height: 5px;
+    background-color: green;
+    margin: 0;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 50;
+}
 
