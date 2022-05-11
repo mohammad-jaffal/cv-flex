@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.top-left-container {
+    width: 40%;
+    background-image: linear-gradient(to right, green , rgb(211, 255, 205));
+
+}
+
+.top-right-container {
+    width: 60%;
+
+}
+
+.left-container {
+    height: 500px;
+    width: 40%;
+    /* background-image: linear-gradient(to right, green , rgb(211, 255, 205)); */
+    background-color: red;
+
+}
+
+.right-container {
+    width: 60%;
+
+}
+
+
+
+.profile-container {
+    background-color: aliceblue;
+    margin-bottom: 50px;
+}
+
+.profile {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.item {
+    background-color: green;
+    color: rgb(211, 255, 205);
+}
+
+
+.title {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40;
+}
+
+.info {
+    font-size: 16;
+    margin-left: 15px;
+    margin-right: 30%;
+
+}
