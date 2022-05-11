@@ -16,30 +16,21 @@ html, body {
     background-image: linear-gradient(to right, green , rgb(211, 255, 205));
     width: 40%;
     margin-right: 125px;
-
 }
-
-
 
 .top-right-container {
     flex-grow: 1;
-    
-
 }
 
 .left-container {
     height: auto;
     width: 40%;
     background-image: linear-gradient(to right, green , rgb(211, 255, 205));
-
 }
 
 .right-container {
     width: 60%;
-
 }
-
-
 
 .profile-container {
     margin-bottom: 50px;
@@ -70,7 +61,7 @@ html, body {
     margin-bottom: 20px;
     font-style: italic;
     font-weight: bold;
-    font-size: 35;
+    font-size: 35px;
 }
 
 .right-title {
@@ -80,21 +71,19 @@ html, body {
     margin-left: 25px;
     font-style: italic;
     font-weight: bold;
-    font-size: 35;
+    font-size: 35px;
 }
 
 .info {
     font-size: 16;
     margin-left: 15px;
     margin-right: 30%;
-
 }
 
 .profile-info {
     color: green;
     text-align: center;
     margin-top: 30%;
-    
 }
 
 .separator {
@@ -106,6 +95,6 @@ html, body {
 
 .name {
     font-weight: bold;
-    font-size: 50;
+    font-size: 50px;
 }
 
