@@ -27,7 +27,6 @@ html, body {
 .left-container {
     height: auto;
     width: 40%;
-    /* background-image: linear-gradient(to right, green , rgb(211, 255, 205)); */
 }
 
 .right-container {
@@ -68,7 +67,6 @@ html, body {
     background-image: linear-gradient(to right, green , rgb(211, 255, 205) 110%);
 }
 
-
 .left-title {
     background-color: green;
     margin-bottom: 20px;
@@ -80,14 +78,11 @@ html, body {
 }
 
 .right-title {
-    /* color: rgb(211, 255, 205); */
     background-color: green;
     margin-bottom: 20px;
-    /* margin-left: 25px; */
     font-style: italic;
     font-weight: bold;
     font-size: 35px;
-    /* width: 70%; */
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -101,7 +96,6 @@ html, body {
     padding-left: 2%;
     
 }
-
 
 .separator {
     border-style: hidden;
@@ -121,7 +115,6 @@ html, body {
 }
 
 .skill-icon {
-    /* width: 50px; */
     height: 40px;
     margin: 5px;
     margin-left: 20px;
