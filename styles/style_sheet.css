@@ -11,10 +11,11 @@ html, body {
     display: flex;
     width: auto;
     height: auto;
+    margin-bottom: 3%;
 }
 
 .top-left-container {
-    background-image: linear-gradient(to right, green , rgb(211, 255, 205));
+    background-image: linear-gradient(to right, green , rgb(211, 255, 205) );
     width: 40%;
     margin-right: 125px;
 }
@@ -26,11 +27,10 @@ html, body {
 .left-container {
     height: auto;
     width: 40%;
-    background-image: linear-gradient(to right, green , rgb(211, 255, 205));
+    /* background-image: linear-gradient(to right, green , rgb(211, 255, 205)); */
 }
 
 .right-container {
-    /* width: 60%; */
     flex-grow: 1;
 }
 
@@ -40,21 +40,32 @@ html, body {
 
 .profile {
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
     width: 250px;
     height: 250px;
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 15%;
+}
+
+.profile-info {
+    color: green;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15%;
 }
 
 .left-item {
-    color: rgb(211, 255, 205);
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    color: white;
+    background-image: linear-gradient(to right, green , rgb(211, 255, 205) 110%);
 }
 
 .right-item {
-    color: green;
-    margin-left: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    color: white;
+    margin-left: 20%;
+    background-image: linear-gradient(to right, green , rgb(211, 255, 205) 110%);
 }
 
 
@@ -64,30 +75,33 @@ html, body {
     font-style: italic;
     font-weight: bold;
     font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .right-title {
-    color: rgb(211, 255, 205);
+    /* color: rgb(211, 255, 205); */
     background-color: green;
     margin-bottom: 20px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     font-style: italic;
     font-weight: bold;
     font-size: 35px;
-    width: 70%;
+    /* width: 70%; */
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .info {
-    font-size: 16;
+    color: white;
+    font-size: 18px;
     margin-left: 15px;
     margin-right: 30%;
+    word-spacing: 3px;
+    padding-left: 2%;
+    
 }
 
-.profile-info {
-    color: green;
-    text-align: center;
-    margin-top: 30%;
-}
 
 .separator {
     border-style: hidden;
@@ -115,5 +129,10 @@ html, body {
 
 .bullets {
     font-weight: bold;
+    font-size: 20px;
+}
+
+.exp-list {
+    padding: 5px;
     font-size: 20px;
 }
