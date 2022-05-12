@@ -8,7 +8,7 @@ html, body {
 
 .main-container {
     display: flex;
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
@@ -29,7 +29,8 @@ html, body {
 }
 
 .right-container {
-    width: 60%;
+    /* width: 60%; */
+    flex-grow: 1;
 }
 
 .profile-container {
@@ -72,6 +73,7 @@ html, body {
     font-style: italic;
     font-weight: bold;
     font-size: 35px;
+    width: 70%;
 }
 
 .info {
@@ -98,3 +100,14 @@ html, body {
     font-size: 50px;
 }
 
+.skills-contaner {
+    margin-left: 25px;
+    display: flex;
+}
+
+.skill-icon {
+    /* width: 50px; */
+    height: 50px;
+    margin: 5px;
+    margin-left: 20px;
+}
